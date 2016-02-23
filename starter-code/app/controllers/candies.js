@@ -19,13 +19,13 @@ router.route('/')
   .get(function(req, res, next) {
     res.json(candies);
   })
-  //POST a new blob
+  //POST a new candy
   .post(function(req, res) {
     candies.push(req.body)
     res.json(req.body);
   });
 
-// Show a Book
+// Show a Candy
 router.route('/:id').get(function(req,res){
 
     candy = candies.filter(function(element){ return element["id"] == req.params.id })[0]
@@ -40,7 +40,7 @@ router.route('/:id').get(function(req,res){
     res.json({message : 'deleted' });
   });
 
-//Update a book
+//Update a Candy
 router.put('/:id/edit', function(req, res) {
   for(i in candies){
     if(candies[i]["id"] == req.params.id){
