@@ -96,10 +96,10 @@ Take the starter code provided - this is an app we've created when we talked abo
 
 To test this app, we need to install a couple of dependencies.
 
-First, let's install mocha, and we will install this package globally using `-g`:
+First, let's install mocha using --save-dev:
 
 ```bash
-npm install -g mocha
+npm install mocha --save-dev
 ```
 
 Then we will install chai using --save-dev
