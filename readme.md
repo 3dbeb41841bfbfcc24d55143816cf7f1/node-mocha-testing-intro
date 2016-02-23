@@ -4,10 +4,6 @@ type: lesson
 duration: "1:15"
 creator:
     name: Gerry Mathe/LON
-
-creator:
-    name: Mike Hopper/ATL
-    
 competencies: Testing
 ---
 
