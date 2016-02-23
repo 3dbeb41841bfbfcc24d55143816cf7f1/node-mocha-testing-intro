@@ -119,13 +119,13 @@ npm install supertest --save-dev
 Now that we're configured, let's set up our file and folder structure. All the tests will be written inside a folder `test` at the root of the app:
 
 ```bash
-mkdir tests
+mkdir test
 ```
 
 Then we will write the tests inside a file called `candies_tests.js`:
 
 ```bash
-touch tests/candies_tests.js
+touch test/candies_tests.js
 ```
 
 > Note: Explain that because our tests will request the application through HTTP, students have to make sure they are running the app while running the tests
