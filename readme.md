@@ -22,6 +22,54 @@ competencies: Testing
 - Describe TDD
 - Explain basic file and folder structure in a simple RESTful node app
 
+## Intro to Testing
+
+* Problem: how can we automate the testing of our software components?
+
+### Types of Testing:
+
+See: [Types of Software Testing](http://www.softwaretestinghelp.com/types-of-software-testing/)
+
+* How tests are executed:
+  - Manual
+  - Automated
+* Granularity:
+  - Unit: Focuses on testing individual "units" of code, usually individual functions or methods.
+  - Component: class, library
+  - Integration: set of components that are collaborating (interacting) to perform a task
+  - End-to-end (E2E): complete application running in an environment that mimics a real-world production environment
+* Purpose
+  - Functional
+    * Positive testing - does it work when it is supposed to work.
+    * Negative testing - does it fail when it is supposed to fail.
+  - Regression: Did we break anything?
+  - Smoke: Did the build work?
+  - Performance / Load: How does the software behave under a heavy load?
+    * Lots of users / traffic
+    * Large data sets
+  - Usability: How intuitive (easy to use) is the software?
+  - Security: How secure is the application?
+  - Compatibility: How well does the software work with various hardware, O.S., network environments?
+  - Recovery: How well does the system respond to hardware or software failures? Is it fault-tolerant?
+    * User Acceptance Testing (UAT) -
+    	  * Does the software do what the customers want it to do?
+    	  * Actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications. 
+
+
+### TDD and BDD
+
+#### TDD: Test-driven development
+
+A development methodology of writing the tests first, then writing the code to make those tests pass. Thus the process is:
+
+1. Define a test set for the unit
+2. Implement the unit
+3. Verify that the implementation of the unit makes the tests succeed.
+
+#### BDD: Behavior-driven development
+
+A development methodology that was derived from `TDD` and `DDD` where tests are written in an English-like language (i.e. the `Gherkin` language) that specifies the external *behavior* (the specifications) of the unit without reference to how the unit was implemented (thus it is a form of *black box* testing). The purpose of BDD is to both describe and test the behavior of a unit of code in a single *specification* file.
+
 
 ## Mocha, Chai And Javascript Testing - Intro (10 min)
 
