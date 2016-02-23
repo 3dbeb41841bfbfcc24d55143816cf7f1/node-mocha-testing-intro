@@ -3,7 +3,7 @@ title: Testing Node with Mocha/Chai
 type: lesson
 duration: "1:15"
 creator:
-    name: Gerry Mathe/LON
+    name: Gerry Mathe/LON, Mike Hopper/ATL
 competencies: Testing
 ---
 
