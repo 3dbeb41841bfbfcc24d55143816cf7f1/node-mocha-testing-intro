@@ -3,8 +3,8 @@ title: Testing Node with Mocha/Chai
 type: lesson
 duration: "1:15"
 creator:
-    name: Gerry Mathe
-    city: London
+    name: Gerry Mathe/LON
+    name: Mike Hopper/ATL
 competencies: Testing
 ---
 
@@ -26,7 +26,7 @@ competencies: Testing
 
 * Problem: how can we automate the testing of our software components?
 
-### Types of Testing:
+### Types of Testing
 
 See: [Types of Software Testing](http://www.softwaretestinghelp.com/types-of-software-testing/)
 
