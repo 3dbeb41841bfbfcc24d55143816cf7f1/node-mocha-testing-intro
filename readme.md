@@ -76,17 +76,17 @@ We've now created several Express applications.  All these apps cover a single t
 
 To do so in Node, we will use two libraries: one to run the tests and a second one to run the assertions.
 
-Mocha will be our testing framework. From the mocha Website:
+Mocha will be our testing framework. From the [Mocha Website](https://mochajs.org/):
 
 _"Mocha is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases."_
 
 
-For assertions, we will use Chai. From the Chai website:
+For assertions, we will use Chai. From the [Chai website](http://chaijs.com/):
 
 _"Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework."_
 
 
-To be able to make HTTP requests inside tests, we will use a framework called `supertest`.
+To be able to make HTTP requests inside tests, we will use a framework called [Supertest](https://github.com/visionmedia/supertest).
 
 ## Let's Test! Codealong (35 mins)
 
