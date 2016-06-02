@@ -92,7 +92,7 @@ To be able to make HTTP requests inside tests, we will use a framework called [S
 
 #### Setting up the app
 
-Take the starter code provided - this is an app we've created when we talked about routing in Express.
+Take the starter code provided - this is an app we've created when we talked about routing in Express. Be sure to `npm install`.
 
 To test this app, we need to install a couple of dependencies.
 
@@ -128,7 +128,7 @@ Then we will write the tests inside a file called `candies_tests.js`:
 touch test/candies_tests.js
 ```
 
-> Note: Explain that because our tests will request the application through HTTP, students have to make sure they are running the app while running the tests
+> Note: Because our tests will request the application through HTTP, students have to make sure they are running the app while running the tests
 
 #### Let's write some tests
 
@@ -283,9 +283,9 @@ Run the `mocha` command in the terminal, you should now have four passing tests!
 
 Add tests to the suite:
 
-1. Write a test that make sure the object returned when you call show with a specific ID contains the right fields.
-2. Write a test that ensure an object is deleted from the array candies when you call delete.
-3. Write a test that ensure a property is updated when you call `PUT /candies/:id`
+1. Write a test that makes sure the object returned when you call the `show` route with a specific ID contains the right fields.
+2. Write a test that ensures an object is deleted from the array candies when you call delete.
+3. Write a test that ensures a property is updated when you call `PUT /candies/:id`
 
 
 ## Conclusion (10 mins)
