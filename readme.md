@@ -30,29 +30,28 @@ competencies: Testing
 See: [Types of Software Testing](http://www.softwaretestinghelp.com/types-of-software-testing/)
 
 * How tests are executed:
-  - Manual
-  - Automated
+  - __Manual__ - user runs test via the UI
+  - __Automated__ - test scripts are executed that call into the code and compare results to expected values
 * Granularity:
-  - Unit: Focuses on testing individual "units" of code, usually individual functions or methods.
-  - Component: class, library
-  - Integration: set of components that are collaborating (interacting) to perform a task
-  - End-to-end (E2E): complete application running in an environment that mimics a real-world production environment
+  - __Unit__: Focuses on testing individual "units" of code, usually individual functions or methods.
+  - __Component__: class, library
+  - __Integration__: set of components that are collaborating (interacting) to perform a task
+  - __End-to-end (E2E)__: complete application running in an environment that mimics a real-world production environment
 * Purpose
-  - Functional
-    * Positive testing - does it work when it is supposed to work.
-    * Negative testing - does it fail when it is supposed to fail.
-  - Regression: Did we break anything?
-  - Smoke: Did the build work?
-  - Performance / Load: How does the software behave under a heavy load?
-    * Lots of users / traffic
-    * Large data sets
-  - Usability: How intuitive (easy to use) is the software?
-  - Security: How secure is the application?
-  - Compatibility: How well does the software work with various hardware, O.S., network environments?
-  - Recovery: How well does the system respond to hardware or software failures? Is it fault-tolerant?
-    * User Acceptance Testing (UAT) -
-    	  * Does the software do what the customers want it to do?
-    	  * Actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications. 
+  - __Functional__
+     * __Positive testing__ - does it work when it is supposed to work.
+     * __Negative testing__ - does it fail when it is supposed to fail.
+  - __Regression__: Did we break anything?
+  - __Smoke__: Did the build work?
+  - __Performance / Load__: How does the software behave under a heavy load?
+     * Lots of users / traffic
+     * Large data sets
+  - __Usability__: How intuitive (easy to use) is the software?
+  - __Security__: How secure is the application?
+  - __Compatibility__: How well does the software work with various hardware, O.S., network environments?
+  - __Recovery__: How well does the system respond to hardware or software failures? Is it fault-tolerant?
+  - __User Acceptance Testing (UAT)__ - Does the software do what the customers want it to do?
+     * Actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications.
 
 
 ### TDD and BDD
